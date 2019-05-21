@@ -134,6 +134,30 @@ Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth
 ## 7. Conclusion
 Key Observations <br>
 - For Training Data: we have 8keypoints more away from expected value. For Test Data: we have 3 keypoints more away from mean.=> Model training error is higher (consistency), however, test error is lesser (generalization).<br>
-- For All Test Data: 3 center keypoints are more away from mean. For Test Data1 (visual inspection of plot): 3 center keypoints are more away from where they should be. 
+- For All Test Data: 3 center keypoints are more away from mean. For Test Data1 (visual inspection of plot): 3 center keypoints are more away from where they should be. <br><br>
 **Conclusion: Model is generalizing well, however, more test error is seen for the center keypoints which needs to be improved.**
 
+## 8. Further Work
+
+Based on the insights from working on the project, here are a list of future work that I plan to do:
+1. Data Representation
+   * (a) Try data augmentation e.g. flipping the available face images to increase the variety of training data
+   * (b) Check which all code sections additionally needs to be run on gpu to improve performance e.g. loading the data from the .csv 
+         files to dataframes
+2. Network Topology
+   * (a) Try CNN as the Network Topology
+3. Network Parameters
+   * (a) Try with more neurons in hidden layer for the Multi-Layer Perceptron (MLP)
+   * (b) Try with more hidden layers for the Multi-Layer Perceptron (MLP)
+4. Training
+   * (a) Increase Training Data Size - We have currently used the training/validation data instances (2140) which have information about 
+         all 15 keypoints. There are other instances (7049-2140 = 4909) which have keypoints information for few keypoints and do not 
+         have for other keypoints. We can utilize these training instances to train the model for the respective keypoints whose 
+         information is available. 
+   * (b) Try different values of learning rate
+   * (c) Try different values of momentum
+   * (d) Try different values of epochs
+   * (e) Maximize Information Content - review the training data and validation results and pick up those samples that are radically 
+         different than others.
+5. Validation
+   * (a) Use k-cross validation (split the data into training,validation and perform k times of training & validation)
