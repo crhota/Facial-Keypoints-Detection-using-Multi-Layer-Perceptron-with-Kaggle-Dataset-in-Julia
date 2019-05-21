@@ -76,3 +76,15 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 
 **Training Data - Number of Instances**
 * Total Instances Available = 7049.
+* We have instances (rows) with missing information for few of the keypoints coordinates (columns).
+* To keep it simple, for now, considering the instances (2140) that do not have any missing information. ...Further Work 4(a)
+
+**Training v/s Validation Data - Number of Instances**
+* Considering the breakup as follows: 
+  * first 80% of the 2140 instances: 1 to 1712 instances as training data ...Further Work 4(e)
+  * remaining instances: 1713 to 2140 instances as validation data ...Further Work 5(a)
+
+**Training Data - Input,Output**
+* We will provide input and output together as data for the model to train.
+  * 1712 number of (9216,1) column vector as Input 
+  * 1712 number of (30,1) column vector as Output
