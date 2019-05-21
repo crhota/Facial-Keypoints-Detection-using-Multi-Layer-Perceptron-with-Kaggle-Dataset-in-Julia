@@ -111,3 +111,11 @@ CNN is recommended for this kind of applications. Intent currently is to build a
     
 **Epochs** <gr>
 - Considered **1 epoch** for now ...**Further Work 4(d)**
+
+### 5.5. Validation
+
+1. Predicted v/s Expected Keypoint Location (Euclidean Distance)
+    - Mean of above euclidean distance for all validation instances for all keypoints - summary below:
+        - 8 keypoints: Mean < ~4.5
+        - 7 keypoints: ~5.3 < Mean < ~6.5 ...**Further Work 4(e)**
+2. Currently I manually validated the data by passing few test samples to the trained model and then plotting the predicted keypoints onto the face image. ...**Further Work 5(a)**
