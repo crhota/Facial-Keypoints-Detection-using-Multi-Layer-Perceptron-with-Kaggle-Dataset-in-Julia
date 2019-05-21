@@ -13,5 +13,7 @@ My sincere gratitude to my teachers for sharing the knowledge on Machine Learnin
 - **Anandi Giridharan**, Principal Research Scientist, Electrical Communication Engg., Indian Institute of Science,Bengaluru, India
 - **Dr. Vijaya Kumar B.P**, Professor & Head, Information Science & Engg., MS Ramaiah Institute of Technology, Bengaluru, India
 - **Abhijith Chandraprabhu**, Application Engineer, Julia Computing, Bengaluru, India
+
 I sincerely thank **Julia Slack Community** (https://julialang.slack.com) and **my batchmates of Jan-May'19 Computational Machine Laerning Course at CCE, IISc** for clarifying various doubts of mine which helped a lot at critical junctures of my learning.  
+
 I am indebted to **my family** for providing me the support and space to spend time on learning new things.
