@@ -40,3 +40,23 @@ Here is an high level explanation of the steps followed in building the model - 
 - Network Parameters <br>
 - Training <br>
 - Validation <br>
+
+### 5.1. Network Topology
+CNN is recommended for this kind of applications. Intent currently is to build a simple end-to-end solution to so that I have understanding of the machine learning as well as Julia. Hence, I am chosing to **Multi-Layer Perceptron** as the network topology. ...**Further Work 2(a)**
+
+### 5.2. Network Parameters
+(9216 Pixel Image) **Input** -> **Model** -> **Output** (30 coordinates of the keypoints) <br>
+
+**Number of Layers / Neurons**
+- We need to have an input layer with 9216 neurons. <br>
+- We need to have an output layer with 30 neurons. <br>
+- To keep it simple, we are having 1 hidden layer with 100 neurons. ...**Further Work 3(a),3(b)** <br>
+
+**Activation Function** <br>
+- Input to Hidden Layer
+  - We need non-linearity to be there for the input to the hidden layer. 
+  - Input Values are pixel data and Output Values are keypoint coordinates. 
+  - As both of there are non-negative, chosing the activation function as **ReLU**. f(x) = { 0 for x<0 ; x for x>=0 }
+- Hidden to Output Layer
+  - Output of the Hidden layer directly predicts the coordinates.
+  - We do not wish to modify it in anyway. Hence, chosing the activation function as **Identity**. f(x) = x (for all x)
