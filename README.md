@@ -32,3 +32,11 @@ Training and Test Data is available at following location: https://www.kaggle.co
 - Each row corresponds to an instance. There are **1783 rows**. There are **2 columns**. <br>
 - Column 1 corresponds to image ID. <br>
 - **Column 2** has the face image data. There are **9216 pixel data**. Each pixel data is in the **range [0,255]** <br>
+
+## 5. Algorithm
+Here is an high level explanation of the steps followed in building the model - key steps are listed below:
+- Data Representaion <br>
+- Network Topology <br>
+- Network Parameters <br>
+- Training <br>
+- Validation <br>
