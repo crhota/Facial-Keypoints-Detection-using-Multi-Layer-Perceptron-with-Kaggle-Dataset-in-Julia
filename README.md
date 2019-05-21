@@ -67,4 +67,5 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 * Image pixel data range is [0,255]. We need to divide each value by 255 to get the values in [0,1]
 * We need to have the pixel data in a (9216,1) column vector (array format) - to match to the network input layer
 * We need to have multiple above arrays corresponding to various instances in an array
+
 **Training Data - Output**
