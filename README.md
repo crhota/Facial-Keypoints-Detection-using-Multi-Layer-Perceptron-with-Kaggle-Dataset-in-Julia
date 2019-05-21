@@ -88,3 +88,26 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 * We will provide input and output together as data for the model to train.
   * **1712 number of (9216,1) column vector as Input** 
   * **1712 number of (30,1) column vector as Output**
+
+### 5.4. Training
+
+**Learning Rate** <br>
+- We need to take small steps during learning so that we do not miss the minima.
+- Hence, keeping the **learning rate = 0.01** ...**Further Work 4(b)** 
+
+**Momentum** <br>
+- If the learning rate is too small, there will be small changes to the model internal paramters (weights/bias). Model will learn very slowly (takes more time).
+- If the learning rate is too high, there will large changes to the model internal parameters. Model might oscillate and thereby become unstable.
+- Using Momentum ensures that we have a faster descent during steady slope and get stability when the slope is oscillating.
+- Keepig the **momentum = 0.09** as of now. ...**Further Work 4(c)**
+
+**Optimizer** <gr>
+- Chosen **Nestorov** as the optimizer for training to utilize both Learning Rate and Momentum.
+    
+**Loss Function** <gr>
+- Learning rule applied is **Error Correction Learning**.
+- Goal is to minimize the error between the desired output and predicted output.
+- Chosen **Flux.mse** as the loss function.
+    
+**Epochs** <gr>
+- Considered **1 epoch** for now ...**Further Work 4(d)**
