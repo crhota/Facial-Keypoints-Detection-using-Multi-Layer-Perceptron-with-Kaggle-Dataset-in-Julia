@@ -67,7 +67,7 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 * We need to extract the Image Pixel Data from Column 31 for each instance(row).
 * Image pixel data range is [0,255]. We need to divide each value by 255 to get the values in [0,1]
 * We need to have the pixel data in a (9216,1) column vector (array format) - to match to the network input layer
-* We need to have multiple above arrays corresponding to various instances in an array
+* We need to have multiple above arrays corresponding to various instances in an array   return
 **Training Data - Output** 
 * We need to extract the 30 coordinates for the 15 keypoints from Column 1-30 for each instance(row).
 * Coordinate values are in the range[0,95]. 
