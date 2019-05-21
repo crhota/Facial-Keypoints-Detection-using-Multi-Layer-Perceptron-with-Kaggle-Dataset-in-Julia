@@ -141,23 +141,23 @@ Key Observations <br>
 
 Based on the insights from working on the project, here are a list of future work that I plan to do:
 1. Data Representation
-   * (a) Try data augmentation e.g. flipping the available face images to increase the variety of training data
-   * (b) Check which all code sections additionally needs to be run on gpu to improve performance e.g. loading the data from the .csv 
-         files to dataframes
+   * (a) Try **data augmentation** e.g. flipping the available face images to increase the variety of training data
+   * (b) Check which all code sections additionally needs to be **run on gpu** to improve performance e.g. loading the data from the 
+         .csv files to dataframes
 2. Network Topology
-   * (a) Try CNN as the Network Topology
+   * (a) Try **CNN** as the Network Topology
 3. Network Parameters
-   * (a) Try with more neurons in hidden layer for the Multi-Layer Perceptron (MLP)
-   * (b) Try with more hidden layers for the Multi-Layer Perceptron (MLP)
+   * (a) Try with **more neurons in hidden layer** for the Multi-Layer Perceptron (MLP)
+   * (b) Try with **more hidden layers** for the Multi-Layer Perceptron (MLP)
 4. Training
-   * (a) Increase Training Data Size - We have currently used the training/validation data instances (2140) which have information about 
-         all 15 keypoints. There are other instances (7049-2140 = 4909) which have keypoints information for few keypoints and do not 
-         have for other keypoints. We can utilize these training instances to train the model for the respective keypoints whose 
+   * (a) **Increase Training Data Size** - We have currently used the training/validation data instances (2140) which have information 
+         about all 15 keypoints. There are other instances (7049-2140 = 4909) which have keypoints information for few keypoints and do 
+         not have for other keypoints. We can utilize these training instances to train the model for the respective keypoints whose 
          information is available. 
-   * (b) Try different values of learning rate
-   * (c) Try different values of momentum
-   * (d) Try different values of epochs
-   * (e) Maximize Information Content - review the training data and validation results and pick up those samples that are radically 
+   * (b) Try **different values of learning rate**
+   * (c) Try **different values of momentum**
+   * (d) Try **different values of epochs**
+   * (e) **Maximize Information Content** - review the training data and validation results and pick up those samples that are radically 
          different than others.
 5. Validation
-   * (a) Use k-cross validation (split the data into training,validation and perform k times of training & validation)
+   * (a) Use **k-cross validation** (split the data into training,validation and perform k times of training & validation)
