@@ -62,26 +62,9 @@ CNN is recommended for this kind of applications. Intent currently is to build a
   - We do not wish to modify it in anyway. Hence, chosing the activation function as **Identity**. f(x) = x (for all x)
 
 ### 5.3. Data Representation
-
-**Training Data - Input** 
+**Training Data - Input**
 * We need to extract the Image Pixel Data from Column 31 for each instance(row).
 * Image pixel data range is [0,255]. We need to divide each value by 255 to get the values in [0,1]
 * We need to have the pixel data in a (9216,1) column vector (array format) - to match to the network input layer
 * We need to have multiple above arrays corresponding to various instances in an array
-**Training Data - Output** 
-* We need to extract the 30 coordinates for the 15 keypoints from Column 1-30 for each instance(row).
-* Coordinate values are in the range[0,95]. 
-* We need to have the coordinates in a (30,1) column vector (array format) - to match to the network output layer.
-* We need to have multiple above arrays corresponding to various instances in an array
-**Training Data - Number of Instances**
-* Total Instances Available = 7049.
-* We have instances (rows) with missing information for few of the keypoints coordinates (columns).
-* To keep it simple, for now, considering the instances (2140) that do not have any missing information. ...Further Work 4(a)
-**Training v/s Validation Data - Number of Instances**
-* Considering the breakup as follows: 
-  * first 80% of the 2140 instances: 1 to 1712 instances as training data ...Further Work 4(e)
-  * remaining instances: 1713 to 2140 instances as validation data ...Further Work 5(a)
-**Training Data - Input,Output**
-* We will provide input and output together as data for the model to train.
-  * 1712 number of (9216,1) column vector as Input 
-  * 1712 number of (30,1) column vector as Output
+**Training Data - Output**
