@@ -20,11 +20,13 @@ I am indebted to **my family** for providing me the support and space to spend t
 
 ## 4. Link to Data / Description of the available Data
 Training and Test Data is available at following location: https://www.kaggle.com/c/facial-keypoints-detection/data <br>
+
 **Training Data** <br>
 - File Name/Type: **training.csv** <br>
 - Each row corresponds to an instance. There are **7049 rows**. There has **31 columns**. <br>
 - **Column 1 to 30** correspond to the x,y coordinates of the 15 keypoints. <br>
 - **Column 31** has the face image data. There are **9216 pixel data**. Each pixel data is in the **range [0,255]**<br>
+
 **Test Data** <br>
 - File Name/Type: **test.csv** <br>
 - Each row corresponds to an instance. There are **1783 rows**. There are **2 columns**. <br>
