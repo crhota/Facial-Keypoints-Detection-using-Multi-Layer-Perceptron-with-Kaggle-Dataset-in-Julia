@@ -119,3 +119,15 @@ CNN is recommended for this kind of applications. Intent currently is to build a
         - 8 keypoints: Mean < ~4.5
         - 7 keypoints: ~5.3 < Mean < ~6.5 ...**Further Work 4(e)**
 2. Currently I manually validated the data by passing few test samples to the trained model and then plotting the predicted keypoints onto the face image. ...**Further Work 5(a)**
+
+## 6. Test Data Results
+Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth_center_bottom_lip <br>
+
+- Passed the 1st test instance to trained model and plotted the predicted keypoints onto the test face image.<br>
+    - Key Observation: 3 center keypoints are more away from where they should be. <br>
+- Calculated Mean of Euclidean Distance b/n "Test Keypoint" and "Mean of Training Keypoint" <br>
+    - Key Observation: 3 center keypoints are more away from mean.<br>
+        - 12 Keypoints: Mean < ~1.7 <br>
+        - 3 Keypoints: ~2.2 < Mean < ~3.9 <br?
+- Accuracy of 3 center keypoints prediction needs to be improved ...**Further Work 1(a), 4(a), 4(e)**
+
