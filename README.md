@@ -69,3 +69,10 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 * We need to have multiple above arrays corresponding to various instances in an array
 
 **Training Data - Output**
+* We need to extract the 30 coordinates for the 15 keypoints from Column 1-30 for each instance(row).
+* Coordinate values are in the range[0,95]. 
+* We need to have the coordinates in a (30,1) column vector (array format) - to match to the network output layer.
+* We need to have multiple above arrays corresponding to various instances in an array
+
+**Training Data - Number of Instances**
+* Total Instances Available = 7049.
