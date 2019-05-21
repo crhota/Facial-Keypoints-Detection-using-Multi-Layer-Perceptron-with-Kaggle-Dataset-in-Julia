@@ -134,6 +134,6 @@ Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth
 ## 7. Conclusion
 Key Observations <br>
 - For Training Data: we have 8keypoints more away from expected value. For Test Data: we have 3 keypoints more away from mean.=> Model training error is higher (consistency), however, test error is lesser (generalization).<br>
-- For All Test Data: 3 center keypoints are more away from mean. For Test Data1 (visual inspection of plot): 3 center keypoints are more away from where they should be. <br><br>
+- For All Test Data: 3 center keypoints are more away from mean. For Test Data1 (visual inspection of plot): 3 center keypoints are more away from where they should be. 
 **Conclusion: Model is generalizing well, however, more test error is seen for the center keypoints which needs to be improved.**
 
