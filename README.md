@@ -8,6 +8,8 @@ We have training data for various face images and their respective keypoint coor
 
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
+Refer the image on objective at: ~/images/ProblemStatement.jpg
+
 ## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
 - **Anandi Giridharan**, Principal Research Scientist, Electrical Communication Engg., Indian Institute of Science,Bengaluru, India
@@ -27,6 +29,7 @@ I am indebted to **my family** for supporting me in my quest to learn new things
 * Code (Jupyter Notebook): FP_vX.XX.ipynb
 * Dataset Files(referred in Jupyter Notebook): training.csv, test.csv
 * Link to download the dataset files: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+* Image Files (used in this README.md for explaining the concept): MLP.jpg, ProblemStatement.jpg
 
 **Setting up the Project to run**
 * Say, we place the notebook in a folder called "basefolder"
@@ -54,6 +57,8 @@ Here is an high level explanation of the steps followed in building the model - 
 - Network Parameters <br>
 - Training <br>
 - Validation <br>
+
+Refer the image on objective at: ~/images/MLP.jpg
 
 ### 5.1. Network Topology
 CNN is recommended for this kind of applications. Intent currently is to build a simple end-to-end solution to so that I have understanding of the machine learning as well as Julia. Hence, I am chosing to **Multi-Layer Perceptron** as the network topology. ...**Further Work 2(a)**
