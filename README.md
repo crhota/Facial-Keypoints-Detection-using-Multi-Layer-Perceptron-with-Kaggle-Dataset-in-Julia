@@ -57,6 +57,7 @@ Here is an high level explanation of the steps followed in building the model - 
 - Network Parameters <br>
 - Training <br>
 - Validation <br>
+
 Refer the image on objective at: ~/images/MLP.jpg
 
 ### 5.1. Network Topology
