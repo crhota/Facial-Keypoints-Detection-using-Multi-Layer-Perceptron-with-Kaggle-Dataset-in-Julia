@@ -1,26 +1,40 @@
 # Facial-Keypoints-Detection-using-Multi-Layer-Perceptron-in-Julia
 This contains code and explanation behind the code for detecting 15# facial keypoints for a given face image using Multi Layer Perceptron in Julia.
 
-## 1. Problem Statement / Objective
+## 1. Project Objective
 We need to detect the x,y coordinates of 15 keypoints of a given image of a face. There are 15 keypoints that need to be detected. Hence, 15x2 = 30 coordinates.Face image data is available as 9216 pixels corresponding to a 96x96 image.
+
 We have training data for various face images and their respective keypoint coordinates. We need to train the model using this training data. As the input and output values are known, model will undergo thro **supervised machine learning**. Output here are keypoints where we need to predict the x,y coordinates - these are not various classes that we need to predict, rather  specific values that needs to be predicted. Hence, this is type of **regression problem**.
 
-## 2. Intent
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
-## 3. Gratitude
+## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
 - **Anandi Giridharan**, Principal Research Scientist, Electrical Communication Engg., Indian Institute of Science,Bengaluru, India
 - **Dr. Vijaya Kumar B.P**, Professor & Head, Information Science & Engg., MS Ramaiah Institute of Technology, Bengaluru, India
 - **Abhijith Chandraprabhu**, Application Engineer, Julia Computing, Bengaluru, India
 
-I sincerely thank **Julia Slack Community** (https://julialang.slack.com) and **my batchmates of Jan-May'19 Computational Machine Laerning Course at CCE, IISc** for clarifying various doubts of mine which helped a lot at critical junctures of my learning.  
+I sincerely thank [**Julia Slack Community**](https://julialang.slack.com) and **my batchmates of Jan-May'19 Computational Machine Laerning Course at CCE, IISc** for clarifying various doubts of mine which helped a lot at critical junctures of my learning.  
 
-I am indebted to **my family** for providing me the support and space to spend time on learning new things.
+I am indebted to **my family** for supporting me in my quest to learn new things.
 
-## 4. Link to Data / Description of the available Data
-Training and Test Data is available at following location: https://www.kaggle.com/c/facial-keypoints-detection/data <br>
+## 3. Getting Started
+**Tools Involved**
+* Julia v1.0.3
+* Jupyter
 
+**Files Involved**
+* Code (Jupyter Notebook): FP_vX.XX.ipynb
+* Dataset Files(referred in Jupyter Notebook): training.csv, test.csv
+* Link to download the dataset files: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+
+**Setting up the Project to run**
+* Say, we place the notebook in a folder called "basefolder"
+* We need to save the two dataset files at ~\basefolder\data\
+* We then need to run the notebook in Jupyter
+* Note: At cold boot, re-run of the whole notebook takes ~4mins to complete run till last statement.
+
+## 4. Description of Datasets
 **Training Data** <br>
 - File Name/Type: **training.csv** <br>
 - Each row corresponds to an instance. There are **7049 rows**. There has **31 columns**. <br>
@@ -90,7 +104,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
   * **1712 number of (30,1) column vector as Output**
 
 ### 5.4. Training
-
 **Learning Rate** <br>
 - We need to take small steps during learning so that we do not miss the minima.
 - Hence, keeping the **learning rate = 0.01** ...**Further Work 4(b)** 
@@ -113,7 +126,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 - Considered **1 epoch** for now ...**Further Work 4(d)**
 
 ### 5.5. Validation
-
 * Predicted v/s Expected Keypoint Location (Euclidean Distance)
     - Mean of above euclidean distance for all validation instances for all keypoints - summary below:
         - 8 keypoints: Mean < ~4.5
@@ -122,7 +134,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 
 ## 6. Test Data Results
 Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth_center_bottom_lip <br>
-
 - Passed the 1st test instance to trained model and plotted the predicted keypoints onto the test face image.<br>
     - Key Observation: 3 center keypoints are more away from where they should be. <br>
 - Calculated Mean of Euclidean Distance b/n "Test Keypoint" and "Mean of Training Keypoint" <br>
@@ -138,7 +149,6 @@ Key Observations <br>
 **Conclusion: Model is generalizing well, however, more test error is seen for the center keypoints which needs to be improved.**
 
 ## 8. Further Work
-
 Based on the insights from working on the project, here are a list of future work that I plan to do:
 1. Data Representation
    * (a) Try **data augmentation** e.g. flipping the available face images to increase the variety of training data
@@ -163,7 +173,7 @@ Based on the insights from working on the project, here are a list of future wor
    * (a) Use **k-cross validation** (split the data into training,validation and perform k times of training & validation)
 
 ## 9. References
-- Dataset and associated explanation: https://www.kaggle.com/c/facial-keypoints-detection/data
-- "Intro to Julia" and "Intro to ML" tutorials from Julia Computing: https://github.com/JuliaComputing/JuliaBoxTutorials
-- Existing Information from Queries/Answers on Julia/ML: https://stackoverflow.com/
-- Existing Information from Queries/Answers on Julia: https://discourse.julialang.org/
+* Dataset and associated knowledge base for the objective: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+* "Intro to Julia" and "Intro to ML" tutorials: [JuliaComputing GitHub](https://github.com/JuliaComputing/JuliaBoxTutorials)
+* Knowledge Base on Julia/ML: [Stackoverflow](https://stackoverflow.com/)
+* Knowledge Base on Julia: [Julialang Discourse](https://discourse.julialang.org/)
