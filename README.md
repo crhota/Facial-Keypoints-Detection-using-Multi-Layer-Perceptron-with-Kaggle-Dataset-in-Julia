@@ -114,11 +114,11 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 
 ### 5.5. Validation
 
-1. Predicted v/s Expected Keypoint Location (Euclidean Distance)
+* Predicted v/s Expected Keypoint Location (Euclidean Distance)
     - Mean of above euclidean distance for all validation instances for all keypoints - summary below:
         - 8 keypoints: Mean < ~4.5
         - 7 keypoints: ~5.3 < Mean < ~6.5 ...**Further Work 4(e)**
-2. Currently I manually validated the data by passing few test samples to the trained model and then plotting the predicted keypoints onto the face image. ...**Further Work 5(a)**
+* Currently I manually validated the data by passing few test samples to the trained model and then plotting the predicted keypoints onto the face image. ...**Further Work 5(a)**
 
 ## 6. Test Data Results
 Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth_center_bottom_lip <br>
@@ -161,3 +161,9 @@ Based on the insights from working on the project, here are a list of future wor
          different than others.
 5. Validation
    * (a) Use **k-cross validation** (split the data into training,validation and perform k times of training & validation)
+
+## 9. References
+- Dataset and associated explanation: https://www.kaggle.com/c/facial-keypoints-detection/data
+- "Intro to Julia" and "Intro to ML" tutorials from Julia Computing: https://github.com/JuliaComputing/JuliaBoxTutorials
+- Existing Information from Queries/Answers on Julia/ML: https://stackoverflow.com/
+- Existing Information from Queries/Answers on Julia: https://discourse.julialang.org/
