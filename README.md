@@ -8,7 +8,7 @@ We have training data for various face images and their respective keypoint coor
 
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
-Refer the image on objective at: ~/images/ProblemStatement.jpg
+Refer the image on objective at: ~/images/ProjectObjective.JPG
 
 ## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
@@ -58,7 +58,7 @@ Here is an high level explanation of the steps followed in building the model - 
 - Training <br>
 - Validation <br>
 
-Refer the image on objective at: ~/images/MLP.jpg
+Refer the image on objective at: ~/images/MLP.JPG
 
 ### 5.1. Network Topology
 CNN is recommended for this kind of applications. Intent currently is to build a simple end-to-end solution to so that I have understanding of the machine learning as well as Julia. Hence, I am chosing to **Multi-Layer Perceptron** as the network topology. ...**Further Work 2(a)**
