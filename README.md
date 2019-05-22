@@ -25,11 +25,15 @@ I am indebted to **my family** for supporting me in my quest to learn new things
 * Julia v1.0.3
 * Jupyter
 
-**Files Involved**
-* Code (Jupyter Notebook): FP_vX.XX.ipynb
-* Dataset Files(referred in Jupyter Notebook): training.csv, test.csv
-* Link to download the dataset files: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
-* Image Files (used in this README.md for explaining the concept): MLP.jpg, ProblemStatement.jpg
+**Folder/Files Involved**
+* Folder: code 
+  * contains Jupyter Notebook: FP_vX.XX.ipynb
+    * Above Jupyter Notebook refers to following dataset files: training.csv, test.csv
+    * Link to download the dataset files: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+* Folder: images
+  * contains image files 
+    * ProjectObjective.JPG: shows visual representation of the project objective
+    * MLP.JPG: shows visual representation of the multi layer perceptron model
 
 **Setting up the Project to run**
 * Say, we place the notebook in a folder called "basefolder"
