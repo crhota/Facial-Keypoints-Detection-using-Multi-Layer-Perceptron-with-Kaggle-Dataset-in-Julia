@@ -173,7 +173,7 @@ Based on the insights from working on the project, here are a list of future wor
    * (a) Use **k-cross validation** (split the data into training,validation and perform k times of training & validation)
 
 ## 9. References
-* Dataset and associated explanation: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+* Dataset and associated knowledge base for the objective: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
 * "Intro to Julia" and "Intro to ML" tutorials: [JuliaComputing GitHub](https://github.com/JuliaComputing/JuliaBoxTutorials)
-* Existing Information from Queries/Answers on Julia/ML: [Stackoverflow](https://stackoverflow.com/)
-* Existing Information from Queries/Answers on Julia: [Julialang Discourse](https://discourse.julialang.org/)
+* Knowledge Base on Julia/ML: [Stackoverflow](https://stackoverflow.com/)
+* Knowledge Base on Julia: [Julialang Discourse](https://discourse.julialang.org/)
