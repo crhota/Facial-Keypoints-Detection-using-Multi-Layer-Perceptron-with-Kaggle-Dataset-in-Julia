@@ -27,6 +27,7 @@ I am indebted to **my family** for supporting me in my quest to learn new things
 * Code (Jupyter Notebook): FP_vX.XX.ipynb
 * Dataset Files(referred in Jupyter Notebook): training.csv, test.csv
 * Link to download the dataset files: [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data)
+* Image Files (used in this README.md for explaining the concept): MLP.jpg, ProblemStatement.jpg
 
 **Setting up the Project to run**
 * Say, we place the notebook in a folder called "basefolder"
