@@ -8,7 +8,7 @@ We have training data for various face images and their respective keypoint coor
 
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
-<img src="https://github.com/crhota/Facial-Keypoints-Detection-using-Multi-Layer-Perceptron-in-Julia/master/images/ProblemStatement.jpg">
+<img src="https://cdn.rawgit.com/crhota/Facial-Keypoints-Detection-using-Multi-Layer-Perceptron-in-Julia/master/images/ProblemStatement.jpg">
 
 ## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
