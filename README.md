@@ -36,9 +36,7 @@ I am indebted to **my family** for providing me the support and space to spend t
 * Run the notebook in Jupyter
 * Note: At cold boot, re-run of the whole notebook takes ~4mins to complete run till last statement.
 
-## 4. Link to Data / Description of the available Data
-Training and Test Data is available at following location: https://www.kaggle.com/c/facial-keypoints-detection/data <br>
-
+## 4. Description of Datasets
 **Training Data** <br>
 - File Name/Type: **training.csv** <br>
 - Each row corresponds to an instance. There are **7049 rows**. There has **31 columns**. <br>
@@ -108,7 +106,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
   * **1712 number of (30,1) column vector as Output**
 
 ### 5.4. Training
-
 **Learning Rate** <br>
 - We need to take small steps during learning so that we do not miss the minima.
 - Hence, keeping the **learning rate = 0.01** ...**Further Work 4(b)** 
@@ -131,7 +128,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 - Considered **1 epoch** for now ...**Further Work 4(d)**
 
 ### 5.5. Validation
-
 * Predicted v/s Expected Keypoint Location (Euclidean Distance)
     - Mean of above euclidean distance for all validation instances for all keypoints - summary below:
         - 8 keypoints: Mean < ~4.5
@@ -140,7 +136,6 @@ CNN is recommended for this kind of applications. Intent currently is to build a
 
 ## 6. Test Data Results
 Note: 3 center keypoints referred here are nose_tip, mouth_center_top_lip, mouth_center_bottom_lip <br>
-
 - Passed the 1st test instance to trained model and plotted the predicted keypoints onto the test face image.<br>
     - Key Observation: 3 center keypoints are more away from where they should be. <br>
 - Calculated Mean of Euclidean Distance b/n "Test Keypoint" and "Mean of Training Keypoint" <br>
@@ -156,7 +151,6 @@ Key Observations <br>
 **Conclusion: Model is generalizing well, however, more test error is seen for the center keypoints which needs to be improved.**
 
 ## 8. Further Work
-
 Based on the insights from working on the project, here are a list of future work that I plan to do:
 1. Data Representation
    * (a) Try **data augmentation** e.g. flipping the available face images to increase the variety of training data
@@ -181,7 +175,7 @@ Based on the insights from working on the project, here are a list of future wor
    * (a) Use **k-cross validation** (split the data into training,validation and perform k times of training & validation)
 
 ## 9. References
-- Dataset and associated explanation: https://www.kaggle.com/c/facial-keypoints-detection/data
-- "Intro to Julia" and "Intro to ML" tutorials from Julia Computing: https://github.com/JuliaComputing/JuliaBoxTutorials
-- Existing Information from Queries/Answers on Julia/ML: https://stackoverflow.com/
-- Existing Information from Queries/Answers on Julia: https://discourse.julialang.org/
+* Dataset and associated explanation: https://www.kaggle.com/c/facial-keypoints-detection/data
+* "Intro to Julia" and "Intro to ML" tutorials from Julia Computing: https://github.com/JuliaComputing/JuliaBoxTutorials
+* Existing Information from Queries/Answers on Julia/ML: https://stackoverflow.com/
+* Existing Information from Queries/Answers on Julia: https://discourse.julialang.org/
