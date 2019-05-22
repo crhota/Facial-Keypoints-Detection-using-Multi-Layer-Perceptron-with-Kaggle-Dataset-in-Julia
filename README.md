@@ -19,6 +19,10 @@ I sincerely thank **Julia Slack Community** (https://julialang.slack.com) and **
 I am indebted to **my family** for providing me the support and space to spend time on learning new things.
 
 ## 3. Tools Involved / Setting up the Project to Run State
+** Tools Involved **
+* Julia v1.0.3
+* Jupyter Notebook
+
 
 ## 4. Link to Data / Description of the available Data
 Training and Test Data is available at following location: https://www.kaggle.com/c/facial-keypoints-detection/data <br>
