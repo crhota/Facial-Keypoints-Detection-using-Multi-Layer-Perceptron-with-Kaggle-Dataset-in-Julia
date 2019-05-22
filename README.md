@@ -18,7 +18,7 @@ I sincerely thank **Julia Slack Community** (https://julialang.slack.com) and **
 
 I am indebted to **my family** for providing me the support and space to spend time on learning new things.
 
-## 3. Tools Involved / Setting up the Project to run
+## 3. Getting Started
 **Tools Involved**
 * Julia v1.0.3
 * Jupyter
@@ -31,9 +31,7 @@ I am indebted to **my family** for providing me the support and space to spend t
 **Setting up the Project to run**
 * Say, we place the notebook in a folder called "basefolder"
 * We need to save the two dataset files at ~\basefolder\data\
-* For theory behind the code: refer README.md
-* For code base: refer the notebook (FP_vX.XX.ipynb)
-* Run the notebook in Jupyter
+* We then need to run the notebook in Jupyter
 * Note: At cold boot, re-run of the whole notebook takes ~4mins to complete run till last statement.
 
 ## 4. Description of Datasets
