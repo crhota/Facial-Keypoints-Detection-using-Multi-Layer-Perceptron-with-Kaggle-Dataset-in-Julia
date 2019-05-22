@@ -8,7 +8,7 @@ We have training data for various face images and their respective keypoint coor
 
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
-## 3. Gratitude
+## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
 - **Anandi Giridharan**, Principal Research Scientist, Electrical Communication Engg., Indian Institute of Science,Bengaluru, India
 - **Dr. Vijaya Kumar B.P**, Professor & Head, Information Science & Engg., MS Ramaiah Institute of Technology, Bengaluru, India
@@ -17,6 +17,8 @@ My sincere gratitude to my teachers for sharing the knowledge on Machine Learnin
 I sincerely thank **Julia Slack Community** (https://julialang.slack.com) and **my batchmates of Jan-May'19 Computational Machine Laerning Course at CCE, IISc** for clarifying various doubts of mine which helped a lot at critical junctures of my learning.  
 
 I am indebted to **my family** for providing me the support and space to spend time on learning new things.
+
+## 3. Tools Involved / Setting up the Project to Run State
 
 ## 4. Link to Data / Description of the available Data
 Training and Test Data is available at following location: https://www.kaggle.com/c/facial-keypoints-detection/data <br>
