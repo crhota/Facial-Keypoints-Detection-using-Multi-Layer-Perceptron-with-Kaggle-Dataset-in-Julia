@@ -8,8 +8,6 @@ We have training data for various face images and their respective keypoint coor
 
 Intent of this project is to keep it simple and get a hands on experience of the elements starting from getting the data to predicting the output. Additional design of experiments for optimization, identified during the project has been summarized in the "**Further Work**" section.
 
-![](images/ProblemStatement.jpg)
-
 ## 2. Gratitude
 My sincere gratitude to my teachers for sharing the knowledge on Machine Learning and Julia:
 - **Anandi Giridharan**, Principal Research Scientist, Electrical Communication Engg., Indian Institute of Science,Bengaluru, India
