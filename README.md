@@ -1,5 +1,5 @@
 # Facial-Keypoints-Detection-using-Multi-Layer-Perceptron-with-Kaggle-Dataset-in-Julia
-This contains code and explanation behind the code for detecting 15# facial keypoints for a given face image using Multi Layer Perceptron in Julia.
+This project contains code and explanation behind the code for detecting 15# facial keypoints for a given face image (Kaggle dataset) using Multi Layer Perceptron in Julia.
 
 ## 1. Project Objective
 We need to detect the x,y coordinates of 15 keypoints of a given image of a face. There are 15 keypoints that need to be detected. Hence, 15x2 = 30 coordinates.Face image data is available as 9216 pixels corresponding to a 96x96 image.
