@@ -34,7 +34,7 @@ I am indebted to **my family** for supporting me in my quest to learn new things
 * Folder: images
   * contains image files 
     * ProjectObjective.JPG: shows visual representation of the project objective
-    * MLP.JPG: shows visual representation of the multi layer perceptron model
+    * MLP.JPG: shows visual representation of the model (multi layer perceptron network)
 
 **Setting up the Project to run**
 * Say, we place the notebook in a folder called "basefolder"
